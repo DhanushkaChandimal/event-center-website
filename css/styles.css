@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Navigation bar */
 header {
     display: flex;
     justify-content: space-between;
@@ -30,4 +31,10 @@ header {
     color: white;
     font-weight: 500;
     font-size: 1.1em;
+}
+
+/* Hero section */
+.hero {
+    background: url('../images/hero-image.jpg') center/cover;
+    min-height: 100vh;
 }
