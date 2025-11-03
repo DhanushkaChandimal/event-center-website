@@ -11,6 +11,7 @@ header {
     align-items: center;
     background-color: black;
     padding: 15px 30px;
+    background: linear-gradient(135deg, #3C0D0E, #101412);
 }
 
 .logo {
@@ -35,11 +36,12 @@ header {
 
 /* Hero section */
 .hero {
-    background: url('../images/hero-image.jpg') center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-image.jpg') center/cover;
     min-height: 100vh;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
