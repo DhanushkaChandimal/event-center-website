@@ -12,6 +12,10 @@ h2 {
     color: #8B0000;
 }
 
+h3 {
+    font-size: 2rem;
+}
+
 p {
     margin-bottom: 1rem;
     font-size: 1.1rem;
