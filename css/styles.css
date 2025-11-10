@@ -59,6 +59,9 @@ header {
 .contact-form {
     padding: 2rem;
     max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    margin: auto;
 }
 
 .form-group {
@@ -81,6 +84,13 @@ header {
     font-size: 1rem;
 }
 
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #8B0000;
+}
+
 .form-group textarea {
     min-height: 120px;
 }
@@ -92,8 +102,14 @@ header {
     border-radius: 50px;
     font-weight: 600;
     font-size: 1.1rem;
+    transition: all 0.3s ease;
     border: none;
     cursor: pointer;
+}
+
+.btn:hover {
+    background: #FFD700;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 /* Hero section */
