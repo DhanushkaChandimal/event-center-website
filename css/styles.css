@@ -81,9 +81,58 @@ header {
     max-width: 600px;
 }
 
+/* Footer */
 footer {
-    padding: 2rem 0;
     text-align: center;
     background-color: #20323B;
     color: white;
+    padding: 1rem 2rem 0 2rem;
+
+
+
+
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+
+
+    border: 1px solid white;
+}
+
+.footer-copyright {
+    padding-top: 1rem;
+
+
+
+    border: 1px solid white;
+}
+
+.footer-section {
+    border: 1px solid white;
+}
+
+.footer-section h3 {
+    color: #DAA520;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.social-links a:hover {
+    background: #DAA520;
 }
