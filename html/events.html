@@ -77,7 +77,65 @@
             <h2>Book Your Tickets</h2>
             <p>Select your event and secure your seats for an unforgettable experience at Event Center.</p>
             
-            <form class="contact-form">
+            <form action="#" class="contact-form">
+                <div class="form-group">
+                    <label for="event-selection">Select Event *</label>
+                    <select required>
+                        <option>Choose an event</option>
+                        <option>Holiday Symphony Spectacular - Dec 15, 2025</option>
+                        <option>Jazz Under the Stars - Jan 20, 2026</option>
+                        <option>Valentine's Concert - Feb 14, 2026</option>
+                        <option>Spring Piano Recital - Mar 8, 2026</option>
+                        <option>Broadway Night - Apr 15, 2026</option>
+                        <option>Mother's Day Brunch Concert - May 10, 2026</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="ticket-type">Ticket Type *</label>
+                    <select required>
+                        <option>Select ticket type</option>
+                        <option>Orchestra Seating</option>
+                        <option>Mezzanine Seating</option>
+                        <option>Balcony Seating</option>
+                        <option>VIP Package</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="ticket-quantity">Number of Tickets *</label>
+                    <select required>
+                        <option>Select quantity</option>
+                        <option>1 Ticket</option>
+                        <option>2 Tickets</option>
+                        <option>3 Tickets</option>
+                        <option>4 Tickets</option>
+                        <option>5 Tickets</option>
+                        <option>6+ Tickets (call for group rates)</option>
+                    </select>
+                </div>
+            
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel">
+                </div>
+            
+                <div class="form-group">
+                    <label for="notes">Additional Notes</label>
+                    <textarea placeholder="Any special requests or questions about your booking..."></textarea>
+                </div>
+                
+                <input type="submit" class="btn" value="Proceed to Payment">
             </form>
         </section>
     </main>
