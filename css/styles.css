@@ -127,6 +127,7 @@ header {
     gap: 1rem;
 }
 
+/* Button Styles */
 .btn {
     display: inline-block;
     padding: 1rem 2rem;
@@ -137,6 +138,7 @@ header {
     transition: all 0.3s ease;
     border: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn:hover {
