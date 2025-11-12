@@ -26,3 +26,8 @@
 .schedule-table tr:hover {
     background-color: #d5d7da;
 }
+
+.schedule-table .btn{
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
