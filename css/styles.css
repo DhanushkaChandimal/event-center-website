@@ -81,6 +81,63 @@ header {
     max-width: 600px;
 }
 
+/* Form styles */
+.contact-form {
+    padding: 2rem;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    margin: 2rem auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #8B0000;
+}
+
+.form-group textarea {
+    min-height: 120px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #DAA520;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #FFD700;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
 /* Footer */
 footer {
     text-align: center;
