@@ -121,6 +121,12 @@ header {
     min-height: 120px;
 }
 
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
 .btn {
     display: inline-block;
     padding: 1rem 2rem;
