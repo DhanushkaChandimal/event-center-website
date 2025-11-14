@@ -3,3 +3,14 @@
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-image.jpg') center/cover;
     min-height: 100vh;
 }
+
+.event-card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.event-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
