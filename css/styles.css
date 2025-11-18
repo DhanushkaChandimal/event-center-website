@@ -289,7 +289,14 @@ footer {
     text-decoration: none;
     font-size: 1.5rem;
     transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
     z-index: 3000;
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
 }
 
 .back-to-top:hover {
