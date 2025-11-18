@@ -4,6 +4,7 @@
     min-height: 70vh;
 }
 
+/* History section */
 .story-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -16,4 +17,27 @@
     width: 100%;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgb(98, 98, 98);
+}
+
+/* Mission / vission section */
+.mission {
+    background: linear-gradient(135deg, #8B0000, #20323B);
+    color: white;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+.mission h2, h3 {
+    color: #DAA520;
+}
+
+.mission h2 {
+    text-align: center;
+}
+
+#mission-container {
+    display: flex;
+    gap: 3rem;
+    margin-top: 1rem;
 }
