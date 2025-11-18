@@ -249,3 +249,18 @@ footer {
     padding-top: 1rem;
     border-top: 1px solid #626262;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero p {
+        font-size: 1.1rem;
+    }
+    
+    section {
+        padding: 1rem 0.5rem;
+    }
+}
