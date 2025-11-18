@@ -182,6 +182,11 @@ header {
     margin-bottom: 0.5rem;
 }
 
+.card-content h4 {
+    color: #DAA520;
+    margin-bottom: 0.5rem;
+}
+
 /* Footer */
 footer {
     text-align: center;
