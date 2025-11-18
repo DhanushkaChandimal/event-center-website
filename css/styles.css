@@ -82,11 +82,14 @@ header {
 .hero h1 {
     font-size: 3.5rem;
     margin-bottom: 1.5rem;
+    animation: fadeInUp 1s ease-out;
 }
 
 .hero p {
     font-size: 1.3rem;
     max-width: 600px;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease-out 0.3s both;
 }
 
 /* Form styles */
@@ -147,6 +150,7 @@ header {
     border: none;
     cursor: pointer;
     text-decoration: none;
+    animation: fadeInUp 1s ease-out 0.6s both;
 }
 
 .btn:hover {
@@ -317,5 +321,17 @@ footer {
 
     .menu ul li:hover {
         scale: 1.1;
+    }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
